@@ -1,0 +1,14 @@
+Desenvolvimento de um Sistema de Gerenciamento para uma Seguradora e Loja de Automóveis
+
+Você foi contratado para desenvolver um sistema integrado de gerenciamento para uma seguradora e uma loja de automóveis. Esse sistema deve abranger tanto o controle de seguros quanto o processo de vendas de veículos, respeitando as regras de negócio de ambas as áreas. Com base nessa descrição, realize o levantamento de requisitos e elabore o Diagrama de Entidade-Relacionamento (DER) para modelar o sistema, considerando as seguintes entidades e regras:
+
+Entidades principais: Cliente; Apólice; Carro; Acidente; Seguradora;
+
+Regras do sistema:
+
+Um cliente pode possuir uma ou mais apólices de seguro.
+Cada apólice cobre exclusivamente um carro.
+Um carro pode estar associado a nenhum ou vários registros de acidentes.
+Para que um cliente efetue a compra de um carro na loja, é obrigatório contratar um seguro de uma seguradora parceira.
+A loja de automóveis deve registrar as vendas e garantir que cada cliente tenha um seguro ativo no momento da compra.
+Com base nesses requisitos, elabore o Diagrama de Entidade-Relacionamento (DER) que represente essa estrutura de dados.. 
